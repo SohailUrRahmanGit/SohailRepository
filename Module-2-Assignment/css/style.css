@@ -1,0 +1,74 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.box
+{
+width: 100px;
+border: 2px solid black;
+background-color: grey;
+margin: -5px;
+
+}
+
+
+
+
+@media (min-width: 992px)  {
+
+
+#section1
+{
+	width: 500px;
+		height: 100px;
+
+    float: left;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#section2
+{
+	width: 500px;
+	height: 100px;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+
+
+#section3
+{
+	width: 100%;
+		height: 100px;
+
+	clear: left;
+ margin: 5px;
+
+}
+
+
+ body {
+  /*background-color: red;*/
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+/*  body {
+    background-color: blue;
+  }*/
+}
+@media (max-width:767px)  {
+/*  body {
+    background-color: yellow;
+  }*/
+}
+
+
