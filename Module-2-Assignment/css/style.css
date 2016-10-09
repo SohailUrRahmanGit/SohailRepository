@@ -50,6 +50,8 @@ body{
   }
 p{
   display: inline;
+  text-align: left;
+
   margin: 0px;
   padding: 5px;
   width: 250px;
@@ -65,14 +67,23 @@ p{
 @media (min-width: 768px) and (max-width: 991px)
 {
 
+p
+{
+  text-align: left;
+  margin-left: 5px;
+}
 h3
 {
+  margin-left: 5px;
+  margin-left: 274px;
+  display: block;
   width: 100px;
   text-align: center;
-  margin-left: 338px
+  margin-right: 0;
 }
 
-body{
+body
+{
   height: 500px;
   margin: 0px;
   padding: 0px;
@@ -85,6 +96,7 @@ body{
 
 section
   {
+    position: relative;
     background-color: grey;
     margin-left: 5px;
     margin-right: 5px;
@@ -99,7 +111,6 @@ section
 
 #SushiH3
 {
-    margin-left: 785px
 
 }
 
@@ -110,6 +121,27 @@ section
 
 
 @media (max-width:767px)  {
+
+h3
+{
+  margin-left: 5px;
+  margin-left: 274px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin-right: 0;
+}
+
+
+  section
+  {
+    position: relative;
+    background-color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 250px;
+
+  }
 /*  body {
     background-color: yellow;
   }*/
