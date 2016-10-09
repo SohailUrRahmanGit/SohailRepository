@@ -43,6 +43,8 @@ body{
   {
     width: 330.33px;
     background-color: grey;
+  border: 2px solid black ;
+
     margin right: 5px;
     margin-left: 5px;
     height: 250px;
@@ -96,11 +98,13 @@ body
 
 section
   {
-    position: relative;
     background-color: grey;
     margin-left: 5px;
+    margin-top: 3px;
     margin-right: 5px;
     height: 250px;
+  border: 1px solid black ;
+
 
   }
 .removeFloat
@@ -132,9 +136,12 @@ h3
   {
     position: relative;
     background-color: grey;
+    margin-top: 3px;
     margin-left: 5px;
     margin-right: 5px;
     height: 250px;
+  border: 2px solid black ;
+
 
   }
 /*  body {
