@@ -2,8 +2,6 @@ h1{
   text-align: center;
 }
 
-
-
 #ChickenH3
 {
 background-color: pink;
@@ -24,6 +22,7 @@ background-color: yellow;
 {
 h3{
   width: 100px;
+
   text-align: center;
   margin-left: 230px;
   margin-top: 0;
@@ -40,7 +39,8 @@ body{
     float: left;
     background-color: white;
   }
-  section{
+  section
+  {
     width: 330.33px;
     background-color: grey;
     margin right: 5px;
@@ -63,7 +63,45 @@ p{
 /* TABLET VERSION*/
 
 @media (min-width: 768px) and (max-width: 991px)
- {
+{
+
+h3
+{
+  width: 100px;
+  text-align: center;
+  margin-left: 338px
+}
+
+body{
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+}
+.col-md-6
+{
+  float: left;
+  width: 50%;
+}
+
+section
+  {
+    background-color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 250px;
+
+  }
+.removeFloat
+{
+  clear: left;
+  width: 100%;
+}
+
+#SushiH3
+{
+    margin-left: 785px
+
+}
 
 }
 
