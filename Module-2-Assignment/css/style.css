@@ -109,10 +109,7 @@ section
   width: 100%;
 }
 
-#SushiH3
-{
 
-}
 
 }
 
@@ -120,7 +117,7 @@ section
 /* MOBILE VERSION*/
 
 
-@media (min-width:767px)  {
+@media (max-width:767px)  {
 
 h3
 {
@@ -131,8 +128,6 @@ h3
   text-align: center;
   margin-right: 0;
 }
-
-
   section
   {
     position: relative;
