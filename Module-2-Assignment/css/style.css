@@ -27,11 +27,12 @@ background-color: yellow;
 {
 h3{
   width: 100px;
-
+  float: right;
   text-align: center;
-  margin-left: 230px;
-  margin-top: 0;
-  margin-right: 0;
+  margin-top: 0px;
+  border: 2px solid black ;
+  margin-bottom: 0px;
+  padding-right: 0px;
   }
 body{
   height: 500px;
@@ -48,19 +49,17 @@ body{
   {
     width: 330.33px;
     background-color: grey;
-  border: 2px solid black ;
+    border: 2px solid black ;
 
     margin right: 5px;
     margin-left: 5px;
     height: 250px;
-    padding: 3px;
+    padding: 5px;
   }
 p{
-  display: inline;
   text-align: left;
-
   margin: 0px;
-  padding: 5px;
+  padding-top: 20px;
   width: 250px;
   height: 200px;
 }
@@ -74,20 +73,27 @@ p{
 @media (min-width: 768px) and (max-width: 991px)
 {
 
-p
-{
+
+
+p{
   text-align: left;
-  margin-left: 5px;
+  margin: 0px;
+  padding-top: 35px;
+
 }
-h3
-{
-  margin-left: 5px;
-  margin-left: 274px;
-  display: block;
+
+
+
+h3{
   width: 100px;
+  float: right;
   text-align: center;
-  margin-right: 0;
-}
+  margin-top: 0px;
+  border: 2px solid black ;
+  margin-bottom: 0px;
+  }
+
+
 
 body
 {
@@ -108,7 +114,7 @@ section
     margin-top: 3px;
     margin-right: 5px;
     height: 250px;
-  border: 1px solid black ;
+   border: 1px solid black ;
 
 
   }
@@ -126,17 +132,27 @@ section
 /* MOBILE VERSION*/
 
 
-@media (max-width:767px)  {
+@media  (min-width: 0px) and (max-width:767px) {
 
-h3
-{
-  margin-left: 5px;
-  margin-left: 274px;
-  display: block;
-  width: 100px;
-  text-align: center;
-  margin-right: 0;
+
+p{
+  text-align: left;
+  margin: 0px;
+  padding-top: 35px;
+
 }
+
+
+
+h3{
+  width: 100px;
+  float: right;
+  text-align: center;
+  margin-top: 0px;
+  border: 2px solid black ;
+  margin-bottom: 0px;
+  }
+
   section
   {
     position: relative;
