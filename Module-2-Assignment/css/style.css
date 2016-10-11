@@ -3,8 +3,16 @@
   font-family: Helvetica;
 }
 
+div{
+  align :center;
+}
+
 h1{
   text-align: center;
+}
+
+h3{
+  align=right;
 }
 
 #ChickenH3
