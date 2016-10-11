@@ -15,6 +15,14 @@ h3{
   align=right;
 }
 
+p{
+  text-align: left;
+  margin: 0px;
+  padding-top: 35px;
+
+}
+
+
 #ChickenH3
 {
 background-color: pink;
@@ -64,13 +72,8 @@ body{
     height: 250px;
     padding: 5px;
   }
-p{
-  text-align: left;
-  margin: 0px;
-  padding-top: 20px;
-  width: 250px;
-  height: 200px;
-}
+
+
 }
   
 
@@ -83,12 +86,6 @@ p{
 
 
 
-p{
-  text-align: left;
-  margin: 0px;
-  padding-top: 35px;
-
-}
 
 
 
@@ -141,14 +138,6 @@ section
 
 
 @media  (min-width: 0px) and (max-width:767px) {
-
-
-p{
-  text-align: left;
-  margin: 0px;
-  padding-top: 35px;
-
-}
 
 
 
