@@ -1,0 +1,82 @@
+
+h1
+{
+	color: black;
+}
+
+#collapsable-nav
+{
+	margin-top: 12px;
+}
+
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #939393;
+}
+
+#nameH3
+{
+padding-top: 1px;
+text-align: center;
+color: black;
+}
+
+/*.TopDiv
+{
+	height: 500px;
+    width: 100%;
+    background-color: grey;
+    background-image: url("../images/backGroundImage.jpg");
+    background-size: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+
+}*/
+
+.circleBase {
+
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0
+	margin: auto;
+    border-radius: 50%;
+            background-image: url("../images/Me.JPG");
+            background-size: 100%;
+
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    
+
+    border: 3px solid #087BD8;
+}
+
+
+#WebsiteLogo
+{
+	height: 50px;
+	width: 50px;
+}
+div.navbar-header
+{
+	height: 100px;
+}
+
+@media(min-width: 400px )
+{
+h1{
+	margin-top:1px;
+	font-size: 20pt;
+
+}
+
+
+#collapsable-nav
+{
+	margin-top: 12px;
+}
+}
