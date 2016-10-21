@@ -1,0 +1,43 @@
+* {
+  font-family: Helvetica;
+}
+
+div{
+  align :center;
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  padding-top: 5px;
+  text-align: center;
+}
+
+p{
+padding: 2px;
+
+}
+
+.nav-brand{
+  padding-top: 35px;
+  color: #908E93 ;
+  font-size: 25px;
+}
+
+#header-nav
+{
+  background-color: #3A3A3D;
+}
+
+section
+{
+  background-color : #908E93 ;
+  margin: 5px;
+}
+
+
+
+  
+
