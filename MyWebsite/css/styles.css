@@ -6,20 +6,37 @@ h1
 
 #MyAboutContent
 {
-    font-family: "helvectica";
-    font-size: 20px;
+	    background: rgba(0,0,0,0.5);
+
+       font: 20px "Roboto Condensed",sans-serif;
+    font-weight: 100;
+
+    color: #979894;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
+#About{
+
+	margin-top:0px;
+	color: white;
+	padding-top: 150px;
+}
+
 #collapsable-nav
 {
 	margin-top: 12px;
 }
-.row
-{
-}
 
+#Projects
+{
+color: white;
+}
 body{
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background-color: black;
 }
 
 #nameH3
@@ -31,17 +48,19 @@ color: black;
 
 
 
-/*.TopDiv
+
+#TopContent
 {
+	margin-top: 0px;
 	height: 500px;
     width: 100%;
     background-color: grey;
-    background-image: url("../images/backGroundImage.jpg");
+    background-image: url("../images/introBackground.jpeg");
     background-size: 100%;
-    opacity: 0.8;
+    opacity: 1;
     background-repeat: no-repeat;
 
-}*/
+}
 
 
 
