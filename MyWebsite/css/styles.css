@@ -4,9 +4,17 @@ h1
 	color: black;
 }
 
+#MyAboutContent
+{
+    font-family: "helvectica";
+    font-size: 20px;
+}
 #collapsable-nav
 {
 	margin-top: 12px;
+}
+.row
+{
 }
 
 body{
@@ -21,6 +29,8 @@ text-align: center;
 color: black;
 }
 
+
+
 /*.TopDiv
 {
 	height: 500px;
@@ -33,26 +43,6 @@ color: black;
 
 }*/
 
-.circleBase {
-
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0
-	margin: auto;
-    border-radius: 50%;
-            background-image: url("../images/Me.JPG");
-            background-size: 100%;
-
-}
-
-.type1 {
-    width: 100px;
-    height: 100px;
-    
-
-    border: 3px solid #087BD8;
-}
 
 
 #WebsiteLogo
@@ -72,7 +62,6 @@ h1{
 	font-size: 20pt;
 
 }
-
 
 #collapsable-nav
 {
