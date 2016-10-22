@@ -6,15 +6,13 @@ h1
 
 #MyAboutContent
 {
-	    background: rgba(0,0,0,0.5);
-
-       font: 20px "Roboto Condensed",sans-serif;
-    font-weight: 100;
-
-    color: #979894;
-    margin-top: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
+background: rgba(0,0,0,0.5);
+font: 20px "Roboto Condensed",sans-serif;
+font-weight: 100;
+color: #979894;
+margin-top: 0px;
+margin-left: 40px;
+margin-right: 40px;
 
 }
 #About{
@@ -88,9 +86,51 @@ h1{
 	font-size: 20pt;
 
 }
+body{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
 
 #collapsable-nav
 {
 	margin-top: 12px;
 }
+
+#MyAboutContent
+{
+background: rgba(0,0,0,0.5);
+font: 5px "Roboto Condensed",sans-serif;
+font-weight: 100;
+color: #979894;
+margin-top: 0px;
+margin-left: 40px;
+margin-right: 40px;
+
+}
+#About{
+
+	margin-top:0px;
+	color: white;
+	padding-top: 150px;
+}
+#TopContent
+{
+	margin-top: 0px;
+	height: 100%;
+    width: 100%;
+    background-color: grey;
+    background-image: url("../images/introBackground.jpeg");
+    background-size: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
 }
