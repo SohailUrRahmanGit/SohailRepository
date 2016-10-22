@@ -29,10 +29,17 @@ h1
 	margin-top: 12px;
 }
 
+
 #Projects
 {
 color: white;
 }
+#Resume
+{
+color: white;
+
+}
+
 body{
 	background-size: 100%;
 	background-repeat: no-repeat;
